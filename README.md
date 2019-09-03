@@ -4,8 +4,9 @@
 <br>
 Рисунок 1 — Загальний вигляд модулів
 <br>
-#КОРОТКИЙ ОПИС
- - Розробив Roman
- - Канал на YouTube: https://goo.gl/x8FL2o
- - Схема: https://easyeda.com/Targaryen/LoRa_Mesh_Node
+# КОРОТКИЙ ОПИС
+Модуль на ESP8266 для проектування mesh-мережі, тощо.
+- Розробив Roman
+- Канал на YouTube: https://goo.gl/x8FL2o
+- Схема: https://easyeda.com/Targaryen/LoRa_Mesh_Node
 ## 2019 Roman
