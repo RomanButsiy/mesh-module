@@ -1,9 +1,10 @@
 # mesh-module
 <br>
-<a href="https://raw.githubusercontent.com/RomanButsiy/mesh-module/master/screens/Screen1.jpg"><img src="https://raw.githubusercontent.com/RomanButsiy/mesh-module/master/screens/Screen1.jpg"></a>
+<a href="https://raw.githubusercontent.com/RomanButsiy/mesh-module/master/screens/Screen1.png"><img src="https://raw.githubusercontent.com/RomanButsiy/mesh-module/master/screens/Screen1.png"></a>
 <br>
 Рисунок 1 — Загальний вигляд модулів
 <br>
+#КОРОТКИЙ ОПИС
  - Розробив Roman
  - Канал на YouTube: https://goo.gl/x8FL2o
  - Схема: https://easyeda.com/Targaryen/LoRa_Mesh_Node
