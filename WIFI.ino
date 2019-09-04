@@ -19,7 +19,7 @@ void WIFIinit() {
 
   // Спроба встановити з'єднання з точкою доступу
    WiFi.mode(WIFI_STA);
-  byte tries = 11;
+  byte tries = 1; // need fix
   String _ssid = jsonRead(configSetup, "ssid");
   String _password = jsonRead(configSetup, "password");
   if (_ssid == "" && _password == "") {

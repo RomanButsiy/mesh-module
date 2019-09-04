@@ -5,13 +5,16 @@
     - Схема: https://easyeda.com/Targaryen/LoRa_Mesh_Node
 */
 
+// E32-client
+
 #include <ESP8266HTTPUpdateServer.h>
 #include <ESP8266WebServer.h>
+#include <SoftwareSerial.h>
 #include <ESP8266WiFi.h>
 #include <ESP8266SSDP.h>
 #include <ArduinoJson.h>  // Ставимо через менеджер бібліотек
+#include <RH_E32.h>
 #include <time.h>
-#include <SPI.h>
 #include <FS.h>
 
 //--------------------------------------------------------------------
@@ -21,6 +24,9 @@
 ESP8266HTTPUpdateServer httpUpdater;
 // Web інтерфейс для пристрою
 ESP8266WebServer HTTP(80);
+// Створення драйвера модуля E32
+SoftwareSerial E32_Serial(13, 15);
+RH_E32  driver(&E32_Serial, 0, 2, 12);
 // Для файлової системи
 File fsUploadFile;
 
