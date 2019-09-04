@@ -10,6 +10,7 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266SSDP.h>
 #include <ArduinoJson.h>  // Ставимо через менеджер бібліотек
+#include <RH_NRF24.h>
 #include <time.h>
 #include <SPI.h>
 #include <FS.h>
@@ -21,6 +22,8 @@
 ESP8266HTTPUpdateServer httpUpdater;
 // Web інтерфейс для пристрою
 ESP8266WebServer HTTP(80);
+// Для роботи з модулем
+RH_NRF24 nrf24;
 // Для файлової системи
 File fsUploadFile;
 
