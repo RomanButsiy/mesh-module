@@ -25,7 +25,8 @@ ESP8266HTTPUpdateServer httpUpdater;
 // Web інтерфейс для пристрою
 ESP8266WebServer HTTP(80);
 // Створення драйвера модуля E32
-SoftwareSerial E32_Serial(13, 15);
+//SoftwareSerial E32_Serial(13, 15);
+SoftwareSerial E32_Serial;
 RH_E32  driver(&E32_Serial, 0, 2, 12);
 // Для файлової системи
 File fsUploadFile;
